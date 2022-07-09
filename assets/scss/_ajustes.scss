@@ -1,7 +1,7 @@
 @mixin propiedades ($colorFondo,$colorLetra,$radio){
     background-color: $colorFondo;
     color:$colorLetra;
-    border-radius: $radio;
+   
 }
 
 
@@ -96,7 +96,7 @@
 
     .box{
       @extend .parrafo;
-      @include propiedades(#1D3973,#F2F2F2,6px);
+      @include propiedades(#1D3973,#F2F2F2);
       display: map-get($boxPropiedad , display );  
       border-radius:map-get($boxPropiedad , radio ) ;
       box-shadow: map-get($boxPropiedad , shadow );
