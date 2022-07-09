@@ -1,0 +1,30 @@
+
+.post{
+    
+    width: 250px;
+    justify-content: center;
+    justify-items: center;
+    max-width: 300px;
+    
+
+    .botonSitio{
+        border: 0;
+        border-radius: 5px;
+        color:rgb(245, 240, 244);
+        background-color:blue;   
+        width: 10px;
+        justify-content: row;
+        align-items: center;
+        margin-top: 40px;
+        text-decoration: none;
+        
+    }
+    img,.botonSitio{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+    
+

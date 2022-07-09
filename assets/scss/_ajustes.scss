@@ -1,0 +1,116 @@
+@mixin propiedades ($colorFondo,$colorLetra,$radio){
+    background-color: $colorFondo;
+    color:$colorLetra;
+    border-radius: $radio;
+}
+
+
+.propuesta{ 
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(180, 179, 184);
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    
+    
+}
+    
+    .text{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+       
+    }
+    
+    .etiqueta{
+    
+        display: flex;
+        font-size: 56px;    
+        font-style: oblique;    
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 100;
+        background: $colorFondo;
+        background: $gradiente;
+        border-radius: 5px;
+    
+    }
+    .btn{
+        background-color:$colorFondo;
+        color:white;
+        border: brown;
+    }
+    .btnForm{
+        width: 100px;
+        
+    }
+    
+    
+    .main{
+        .imgClientes{
+            transition: all 300ms;
+            
+        }
+        
+    }
+    
+    .tarjeta{
+                 
+        border: 0;
+        border-radius:  5px;
+        padding: 8px 15px;
+        background-color:$colorBtn;
+        align-items: center;
+        color:blue;
+    
+        
+    }
+    
+       
+        
+    
+    textC{
+        color: blue ;
+        font-size: 30px;
+        font-variant-ligatures: discretionary-ligatures;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        flex-wrap: wrap;
+
+    }
+    .parrafo{
+        color:#fff ;
+        font-size: 30px;
+        font-variant-ligatures: discretionary-ligatures;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        flex-wrap: wrap;
+        font-style: italic;
+    }
+    
+
+    .box{
+      @extend .parrafo;
+      @include propiedades(#1D3973,#F2F2F2,6px);
+      display: map-get($boxPropiedad , display );  
+      border-radius:map-get($boxPropiedad , radio ) ;
+      box-shadow: map-get($boxPropiedad , shadow );
+      margin-top: 50px;
+      
+    }
+    .rrss{
+ 
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+       
+    }
+    
