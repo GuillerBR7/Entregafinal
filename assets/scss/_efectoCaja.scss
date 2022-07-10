@@ -2,6 +2,7 @@
     
 
 .imgClientes img:hover{
+    transition: all 1s ease-out; 
     transform: scale(1.15);
     
 }
