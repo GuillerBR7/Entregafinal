@@ -67,6 +67,8 @@
   align-items: center;
   max-width: 300px;
   display: grid;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .post .botonSitio {
   padding: 8px;
