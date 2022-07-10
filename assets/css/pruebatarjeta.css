@@ -1,0 +1,13 @@
+.botonSitio {
+  padding: 20px;
+  margin: 20px;
+  border: 0;
+  border-radius: 5px;
+  color: rgb(245, 240, 244);
+  background-color: rgb(116, 116, 228);
+  width: 10px;
+  justify-content: row;
+  align-items: center;
+  margin-top: 40px;
+  text-decoration: none;
+}/*# sourceMappingURL=pruebatarjeta.css.map */

@@ -4,24 +4,37 @@
     width: 250px;
     justify-content: center;
     justify-items: center;
+    align-items: center;
     max-width: 300px;
+    display: grid;
+    
+   
     
 
     .botonSitio{
+        padding: 8px;
+        margin: 8px;
         border: 0;
         border-radius: 5px;
         color:rgb(245, 240, 244);
-        background-color:blue;   
-        width: 10px;
-        justify-content: row;
+        background-color: rgb(116, 116, 228);   
+        width: auto;
+        height: auto;
+        justify-content: center;
         align-items: center;
-        margin-top: 40px;
+        margin-top: 20px;
         text-decoration: none;
+        
+       
+        
         
     }
     img,.botonSitio{
         margin-top: 20px;
         margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+       
     }
 
 }

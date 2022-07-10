@@ -1,4 +1,4 @@
-@mixin propiedades ($colorFondo,$colorLetra,$radio){
+@mixin propiedades ($colorFondo,$colorLetra){
     background-color: $colorFondo;
     color:$colorLetra;
    
@@ -36,10 +36,11 @@
         background: $colorFondo;
         background: $gradiente;
         border-radius: 5px;
+        box-shadow: 10px 15px 25px rgba(0,0,0,0.50);
     
     }
     .btn{
-        background-color:$colorFondo;
+        background-color:$colorBtn;
         color:white;
         border: brown;
     }
@@ -72,7 +73,7 @@
        
         
     
-    textC{
+    .textC{
         color: blue ;
         font-size: 30px;
         font-variant-ligatures: discretionary-ligatures;
@@ -100,17 +101,17 @@
       display: map-get($boxPropiedad , display );  
       border-radius:map-get($boxPropiedad , radio ) ;
       box-shadow: map-get($boxPropiedad , shadow );
-      margin-top: 50px;
+      margin-top: 45px;
       
     }
     .rrss{
  
+        justify-content: space-around;
         align-items: center;
-        justify-items: center;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
        
        
     }
-    
+   
