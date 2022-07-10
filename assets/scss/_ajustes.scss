@@ -113,11 +113,12 @@
    .preloader{
     margin: auto;
     padding: auto;
-    width: 350px;
+    width: 300px;
     height: 30px;
     background-color: #fff;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
 
    }
    .preloader:before {
@@ -143,7 +144,7 @@
 
    @keyframes preloader {
     100% {
-        width: 100%;
+        width: 90%;
     }
    }
    
@@ -184,8 +185,12 @@
     }
    }
    .cargador{
+    margin: auto;
     padding: 10px;
     margin-top: 20px;  
-    margin-bottom: 20px;
+    margin-bottom: 20px;   
+    width: auto;
+    
+   
    }
  
