@@ -4,20 +4,20 @@
    
 }
 
-
-.propuesta{ 
-    margin: 20px;
-    border-color: #1D3973;
-    border-radius: 5px;
-    display: flex;
-    text-align: center;
-    background-color:#CCCFD9;
-    align-items: center;
+.somos{
+    
+    width: 350px;
     justify-content: center;
-    color: blue;
+    justify-items: center;
+    align-items: center;
+    max-width: 400px;    
+    border-radius: 10px;
+    box-shadow: 10px 15px 25px rgba(0,0,0,0.50);
     
     
 }
+  
+
     
     .text{
         display: flex;
@@ -76,11 +76,10 @@
     
     .textC{
         color: blue ;
-        font-size: 10px;
-        
+        font-size: 20px;        
         justify-content: center;
         text-align: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         flex-wrap: wrap;
 
     }
@@ -199,4 +198,10 @@
     margin-top: 20px;  
     margin-bottom: 20px;
    }
- 
+ .foto{
+    border-radius: 5px;
+    width: 300px;
+    height: auto;
+    display: grid;
+    
+ }
