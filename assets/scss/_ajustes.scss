@@ -157,6 +157,43 @@
         width: 100%;
     }
    }
+   
+ 
+   .preloader2{
+    margin: auto;
+    width: 350px;
+    height: 30px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+
+   }
+   .preloader2:before {
+    content: "";
+    position: absolute;
+    background: $gradiente;
+    width: 0;
+    height: 30px;
+    animation: preloader 3s infinite;
+
+   }
+   .preloader2 h5 {
+    margin: 0;
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;   
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+
+   }
+
+   @keyframes preloader {
+    100% {
+        width: 100%;
+    }
+   }
    .cargador{
     padding: 10px;
     margin-top: 20px;  
