@@ -280,6 +280,7 @@ body {
 }
 
 .card__father:hover .card {
+  transition: all 1s ease-out;
   transform: rotateY(180deg);
 }
 
