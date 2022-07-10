@@ -280,7 +280,7 @@ body {
 
 .card {
   width: 350px;
-  height: 400px;
+  height: 350px;
   position: relative;
   transform-style: preserve-3d;
   transition: all 600ms;
