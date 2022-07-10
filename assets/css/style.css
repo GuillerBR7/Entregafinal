@@ -177,4 +177,13 @@
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.imgEncabezado {
+  width: 100px;
+  height: auto;
+}
+
+.textoEncabezado {
+  color: #000611;
 }/*# sourceMappingURL=style.css.map */
