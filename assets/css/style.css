@@ -182,4 +182,39 @@
 .imgEncabezado {
   width: 100px;
   height: auto;
+}
+
+.preloader {
+  margin: auto;
+  width: 350px;
+  height: 30px;
+  background-color: #fff;
+  position: relative;
+  display: flex;
+}
+
+.preloader:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(108, 197, 217) 49%, rgb(0, 212, 255) 100%);
+  width: 0;
+  height: 30px;
+  animation: preloader 10s infinite;
+}
+
+.preloader h5 {
+  margin: 0;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+}
+
+@keyframes preloader {
+  100% {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
