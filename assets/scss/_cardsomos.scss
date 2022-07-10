@@ -7,7 +7,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-main{
+body{
     background: #F1FAFF;
 }
 
@@ -33,7 +33,7 @@ main{
 
 .card{
     width: 350px;
-    height: 350px;
+    height: 400px;
     position: relative;
     transform-style: preserve-3d;
     transition: all 600ms;
@@ -62,7 +62,7 @@ main{
     background: white;
 }
 
-.main__card_front{
+.body__card_front{
     width: 100%;
     height: 100%;
     text-align: center;
@@ -72,7 +72,6 @@ main{
     align-items: center;
     color: #fff;
     transform: translateZ(60px);
-    
 }
 
 .bg{
@@ -85,18 +84,18 @@ main{
     border-radius: 20px;
 }
 
-.main__card_back{
+.body__card_back{
     padding: 40px;
     text-align: center;
     transform: translateZ(60px);
 }
 
-.main__card_back p{
+.body__card_back p{
     margin-top: 30px;
     font-size: 18px;
 }
 
-.main__card_back input{
+.body__card_back input{
     padding: 10px 40px;
     margin-top: 30px;
     font-size: 16px;
@@ -109,6 +108,6 @@ main{
     transition: box-shadow 600ms;
 }
 
-.main__card_back input:hover{
+.body__card_back input:hover{
     box-shadow: 1px 1px 30px 0px #449de6;
 }
