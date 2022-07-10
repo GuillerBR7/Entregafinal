@@ -185,7 +185,7 @@
 
 .preloader {
   margin: auto;
-  width: 350px;
+  width: 330px;
   height: 30px;
   background-color: #fff;
   position: relative;
@@ -219,7 +219,7 @@
 }
 .preloader2 {
   margin: auto;
-  width: 350px;
+  width: 330px;
   height: 30px;
   background-color: #fff;
   position: relative;
@@ -255,13 +255,6 @@
   padding: 10px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.foto {
-  border-radius: 5px;
-  width: 300px;
-  height: auto;
-  display: grid;
 }
 
 * {
